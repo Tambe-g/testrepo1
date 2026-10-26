@@ -11,7 +11,7 @@ jobs:
 
          steps:
               - name: checkout code / download code
-                uses: actions/checkput@v7
+                uses: actions/checkout@v7
 
               - name: run validate emp
                 run: python validate_emp.py
