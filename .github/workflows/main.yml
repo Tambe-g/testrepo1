@@ -13,9 +13,9 @@ jobs:
               - name: checkout code / download code
                 uses: actions/checkput@v7
 
-                -name: run validate emp
-                 run: python validate_emp.py
+              - name: run validate emp
+                run: python validate_emp.py
 
-                 -name: move data to target
-                   run: echo'move data'
+              - name: move data to target
+                run: echo'move data'
        
