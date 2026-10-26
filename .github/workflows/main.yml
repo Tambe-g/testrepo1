@@ -17,5 +17,5 @@ jobs:
                 run: python validate_emp.py
 
               - name: move data to target
-                run: echo'move data'
+                run: echo 'move data'
        
